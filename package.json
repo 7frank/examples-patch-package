@@ -1,0 +1,25 @@
+{
+  "name": "examples-patch-package",
+  "version": "1.0.0",
+  "description": "example that shows how pactch-package works",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7frank/examples-patch-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7frank/examples-patch-package/issues"
+  },
+  "homepage": "https://github.com/7frank/examples-patch-package#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "patch-package": "^6.4.7"
+  }
+}
